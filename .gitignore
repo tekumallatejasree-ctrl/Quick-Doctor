@@ -1,0 +1,36 @@
+# Target build directories
+**/target/
+**/dist/
+**/build/
+
+# Node dependencies
+**/node_modules/
+.npm
+.yarn
+
+# Local Maven & Git temporary tools
+backend/maven/
+**/maven/
+backend/git/
+**/git/
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Local logs & database files
+*.log
+logs/
+uploads/
+
+# Environment configs
+*.env
+*.env.local
+*.env.*.local
